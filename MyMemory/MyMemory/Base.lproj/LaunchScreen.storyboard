@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fountainpen.png" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-KB-VdH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fountainpen" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-KB-VdH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paper - IT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2r-ZL-WQN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="80" y="331" width="215.5" height="65"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -30,12 +30,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="c1h-KB-VdH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2pR-dP-8UE"/>
+                            <constraint firstItem="V2r-ZL-WQN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="30" id="6Dc-Tw-hgU"/>
                             <constraint firstItem="c1h-KB-VdH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9fY-gB-8oj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V2r-ZL-WQN" secondAttribute="bottom" id="D2c-07-36j"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V2r-ZL-WQN" secondAttribute="trailing" id="DBA-gh-qok"/>
-                            <constraint firstItem="V2r-ZL-WQN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HuK-BI-1yJ"/>
-                            <constraint firstItem="V2r-ZL-WQN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XSz-Hp-f2b"/>
-                            <constraint firstItem="V2r-ZL-WQN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YZz-od-btj"/>
+                            <constraint firstItem="V2r-ZL-WQN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eUH-Ry-E89"/>
                             <constraint firstItem="c1h-KB-VdH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nHC-mk-Brb"/>
                             <constraint firstItem="c1h-KB-VdH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xCK-43-C9g"/>
                         </constraints>
@@ -47,7 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fountainpen.png" width="221.75999450683594" height="274.07998657226562"/>
+        <image name="fountainpen" width="462" height="571"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

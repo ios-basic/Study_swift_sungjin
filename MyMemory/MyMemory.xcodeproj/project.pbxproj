@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09195A0C26384B6400CF2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988B02F2636DA51001C6AC9 /* LaunchScreen.storyboard */; };
 		0988B0222636DA50001C6AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988B0212636DA50001C6AC9 /* AppDelegate.swift */; };
 		0988B0242636DA50001C6AC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988B0232636DA50001C6AC9 /* SceneDelegate.swift */; };
 		0988B0292636DA50001C6AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988B0272636DA50001C6AC9 /* Main.storyboard */; };
 		0988B02C2636DA50001C6AC9 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0988B02A2636DA50001C6AC9 /* MyMemory.xcdatamodeld */; };
 		0988B02E2636DA51001C6AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988B02D2636DA51001C6AC9 /* Assets.xcassets */; };
-		0988B0312636DA51001C6AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988B02F2636DA51001C6AC9 /* LaunchScreen.storyboard */; };
 		0988B03C2636EB32001C6AC9 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988B03B2636EB32001C6AC9 /* MemoListVC.swift */; };
 		0988B03F2636EB4E001C6AC9 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988B03E2636EB4E001C6AC9 /* MemoFormVC.swift */; };
 		0988B0422636EB63001C6AC9 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988B0412636EB63001C6AC9 /* MemoReadVC.swift */; };
@@ -34,7 +34,7 @@
 		0988B0412636EB63001C6AC9 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		0988B0482636EC32001C6AC9 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		0988B04B2636EC71001C6AC9 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
-		0988B05326370059001C6AC9 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
+		0988B05326370059001C6AC9 /* fountainpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fountainpen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		0988B0522637004F001C6AC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0988B05326370059001C6AC9 /* fountainpen@2x.png */,
+				0988B05326370059001C6AC9 /* fountainpen.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0988B0312636DA51001C6AC9 /* LaunchScreen.storyboard in Resources */,
+				09195A0C26384B6400CF2396 /* LaunchScreen.storyboard in Resources */,
 				0988B02E2636DA51001C6AC9 /* Assets.xcassets in Resources */,
 				0988B0292636DA50001C6AC9 /* Main.storyboard in Resources */,
 			);
@@ -326,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sungjin.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sungjin.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
