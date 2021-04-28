@@ -4,7 +4,7 @@
 
 - ✅ Chapter 01 - 4월 26일
 - ✅ Chapter 02 - 4월 27일
-- Chapter 03 - 4월 28, 29, 30일
+- Chapter 03 - [x]4월 28(NewAppDelegate까지), 29, 30일
 - Chapter 04 - 5월 1, 2일
 - Chapter 05 - 5월 3, 4일
 - Chapter 06 - 5월 5, 6, 7일
