@@ -31,6 +31,19 @@ class ViewController: UIViewController {
 //        self.tabBarItem.title = "Calendar"
 
     }
+    
+    // 화면에서 터치가 끝났을 때 호출되는 메소드
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let tabBar = self.tabBarController?.tabBar
+        // 삼항 연산자 구문 사용 ( 참 또는 거짓으로 판단되는 조건식 ) ? 참일 떄의 값 : 거짓일 때의 값
+//        tabBar?.isHidden = (tabBar?.isHidden == true) ? false : true
+        
+        // withDutation 애니메이션이 수행되는 시간을 설정
+        UIView.animate(withDuration: TimeInterval(0.15)) {
+            // alpha 값이 0이면 1로, 1이면 0으로 바꿔줌
+            // 호출될 때마다 점점 투명해졌다가 점점 진해짐
+        tabBar?.alpha = ( tabBar?.alpha == 0 ? 1 : 0 )
+    }
 
 }
-
+}

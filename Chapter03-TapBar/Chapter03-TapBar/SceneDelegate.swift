@@ -17,8 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
+        guard let _ = (scene as? UIWindowScene) else { return }
+        
         // 1. 루트 뷰 컨트롤러를 UITabBarController로 캐스팅
         if let tbC = self.window?.rootViewController as? UITabBarController {
+            
             // 2. 탭 바로부터 탭 바 아이템 배열을 가져온다
             if let tbItems = tbC.tabBar.items {
                 // 3. 탭 바 아이템에 커스텀 이미지를 등록
@@ -36,23 +39,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     tbItem.selectedImage = image
                     
                     // 탭 바 아이템별 텍스트 색상 속성을 설정
-                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .disabled)
-                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
-                    tbItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
-                    
-                    // 외형 프록시 객체를 이용하여 아이템의 타이틀 색상과 폰트 크기를 설정
-                    let tbItemProxy = UITabBarItem.appearance()
-                    tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
-                    tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .disabled)
-                    tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
-                    
+//                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .disabled)
+//                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
+//                    tbItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
                 }
+                // 외형 프록시 객체를 이용하여 아이템의 타이틀 색상과 폰트 크기를 설정
+                let tbItemProxy = UITabBarItem.appearance()
+                tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
+                tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .disabled)
+                tbItemProxy.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
+                    
+                
                 
                 // 4. 탭 바 아이템에 타이틀을 설정
                 tbItems[0].title = "calendar"
                 tbItems[1].title = "file"
                 tbItems[2].title = "photo"
-                
+            }
+            
                 let tbProxy = UITabBar.appearance()
                 // 5. 활성화된 탭 바 아이템의 이미지 색상을 변경
                 tbProxy.tintColor = UIColor.white
@@ -60,9 +64,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 // 6. 탭 바에 배경 이미지를 설정한다.
                 tbProxy.backgroundImage = UIImage(named: "menubar-bg-mini")
             }
-        }
+            
         
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
