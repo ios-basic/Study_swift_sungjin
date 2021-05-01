@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0971D881263C66F60027DE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0971D880263C66F60027DE67 /* AppDelegate.swift */; };
-		0971D883263C66F60027DE67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0971D882263C66F60027DE67 /* SceneDelegate.swift */; };
-		0971D885263C66F60027DE67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0971D884263C66F60027DE67 /* ViewController.swift */; };
-		0971D888263C66F60027DE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0971D886263C66F60027DE67 /* Main.storyboard */; };
-		0971D88A263C66F80027DE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0971D889263C66F80027DE67 /* Assets.xcassets */; };
-		0971D88D263C66F80027DE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0971D88B263C66F80027DE67 /* LaunchScreen.storyboard */; };
-		0971D895263C67220027DE67 /* CSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0971D894263C67220027DE67 /* CSButton.swift */; };
+		090A5210263DAF6E000479B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A520F263DAF6E000479B4 /* AppDelegate.swift */; };
+		090A5212263DAF6E000479B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A5211263DAF6E000479B4 /* SceneDelegate.swift */; };
+		090A5214263DAF6E000479B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A5213263DAF6E000479B4 /* ViewController.swift */; };
+		090A5217263DAF6E000479B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A5215263DAF6E000479B4 /* Main.storyboard */; };
+		090A5219263DAF70000479B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090A5218263DAF70000479B4 /* Assets.xcassets */; };
+		090A521C263DAF70000479B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A521A263DAF70000479B4 /* LaunchScreen.storyboard */; };
+		090A5224263DAF97000479B4 /* CSStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090A5223263DAF97000479B4 /* CSStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0971D87D263C66F60027DE67 /* Chapter03-CSButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter03-CSButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0971D880263C66F60027DE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0971D882263C66F60027DE67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0971D884263C66F60027DE67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0971D887263C66F60027DE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0971D889263C66F80027DE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0971D88C263C66F80027DE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0971D88E263C66F80027DE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0971D894263C67220027DE67 /* CSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSButton.swift; sourceTree = "<group>"; };
+		090A520C263DAF6E000479B4 /* Chapter03-CSSteepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter03-CSSteepper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		090A520F263DAF6E000479B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090A5211263DAF6E000479B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		090A5213263DAF6E000479B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		090A5216263DAF6E000479B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090A5218263DAF70000479B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090A521B263DAF70000479B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090A521D263DAF70000479B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090A5223263DAF97000479B4 /* CSStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0971D87A263C66F60027DE67 /* Frameworks */ = {
+		090A5209263DAF6E000479B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0971D874263C66F60027DE67 = {
+		090A5203263DAF6E000479B4 = {
 			isa = PBXGroup;
 			children = (
-				0971D87F263C66F60027DE67 /* Chapter03-CSButton */,
-				0971D87E263C66F60027DE67 /* Products */,
+				090A520E263DAF6E000479B4 /* Chapter03-CSSteepper */,
+				090A520D263DAF6E000479B4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0971D87E263C66F60027DE67 /* Products */ = {
+		090A520D263DAF6E000479B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0971D87D263C66F60027DE67 /* Chapter03-CSButton.app */,
+				090A520C263DAF6E000479B4 /* Chapter03-CSSteepper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0971D87F263C66F60027DE67 /* Chapter03-CSButton */ = {
+		090A520E263DAF6E000479B4 /* Chapter03-CSSteepper */ = {
 			isa = PBXGroup;
 			children = (
-				0971D880263C66F60027DE67 /* AppDelegate.swift */,
-				0971D882263C66F60027DE67 /* SceneDelegate.swift */,
-				0971D884263C66F60027DE67 /* ViewController.swift */,
-				0971D886263C66F60027DE67 /* Main.storyboard */,
-				0971D894263C67220027DE67 /* CSButton.swift */,
-				0971D889263C66F80027DE67 /* Assets.xcassets */,
-				0971D88B263C66F80027DE67 /* LaunchScreen.storyboard */,
-				0971D88E263C66F80027DE67 /* Info.plist */,
+				090A520F263DAF6E000479B4 /* AppDelegate.swift */,
+				090A5211263DAF6E000479B4 /* SceneDelegate.swift */,
+				090A5213263DAF6E000479B4 /* ViewController.swift */,
+				090A5215263DAF6E000479B4 /* Main.storyboard */,
+				090A5223263DAF97000479B4 /* CSStepper.swift */,
+				090A5218263DAF70000479B4 /* Assets.xcassets */,
+				090A521A263DAF70000479B4 /* LaunchScreen.storyboard */,
+				090A521D263DAF70000479B4 /* Info.plist */,
 			);
-			path = "Chapter03-CSButton";
+			path = "Chapter03-CSSteepper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0971D87C263C66F60027DE67 /* Chapter03-CSButton */ = {
+		090A520B263DAF6E000479B4 /* Chapter03-CSSteepper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0971D891263C66F80027DE67 /* Build configuration list for PBXNativeTarget "Chapter03-CSButton" */;
+			buildConfigurationList = 090A5220263DAF70000479B4 /* Build configuration list for PBXNativeTarget "Chapter03-CSSteepper" */;
 			buildPhases = (
-				0971D879263C66F60027DE67 /* Sources */,
-				0971D87A263C66F60027DE67 /* Frameworks */,
-				0971D87B263C66F60027DE67 /* Resources */,
+				090A5208263DAF6E000479B4 /* Sources */,
+				090A5209263DAF6E000479B4 /* Frameworks */,
+				090A520A263DAF6E000479B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Chapter03-CSButton";
-			productName = "Chapter03-CSButton";
-			productReference = 0971D87D263C66F60027DE67 /* Chapter03-CSButton.app */;
+			name = "Chapter03-CSSteepper";
+			productName = "Chapter03-CSSteepper";
+			productReference = 090A520C263DAF6E000479B4 /* Chapter03-CSSteepper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0971D875263C66F60027DE67 /* Project object */ = {
+		090A5204263DAF6E000479B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					0971D87C263C66F60027DE67 = {
+					090A520B263DAF6E000479B4 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 0971D878263C66F60027DE67 /* Build configuration list for PBXProject "Chapter03-CSButton" */;
+			buildConfigurationList = 090A5207263DAF6E000479B4 /* Build configuration list for PBXProject "Chapter03-CSSteepper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 0971D874263C66F60027DE67;
-			productRefGroup = 0971D87E263C66F60027DE67 /* Products */;
+			mainGroup = 090A5203263DAF6E000479B4;
+			productRefGroup = 090A520D263DAF6E000479B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0971D87C263C66F60027DE67 /* Chapter03-CSButton */,
+				090A520B263DAF6E000479B4 /* Chapter03-CSSteepper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0971D87B263C66F60027DE67 /* Resources */ = {
+		090A520A263DAF6E000479B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0971D88D263C66F80027DE67 /* LaunchScreen.storyboard in Resources */,
-				0971D88A263C66F80027DE67 /* Assets.xcassets in Resources */,
-				0971D888263C66F60027DE67 /* Main.storyboard in Resources */,
+				090A521C263DAF70000479B4 /* LaunchScreen.storyboard in Resources */,
+				090A5219263DAF70000479B4 /* Assets.xcassets in Resources */,
+				090A5217263DAF6E000479B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0971D879263C66F60027DE67 /* Sources */ = {
+		090A5208263DAF6E000479B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0971D885263C66F60027DE67 /* ViewController.swift in Sources */,
-				0971D881263C66F60027DE67 /* AppDelegate.swift in Sources */,
-				0971D883263C66F60027DE67 /* SceneDelegate.swift in Sources */,
-				0971D895263C67220027DE67 /* CSButton.swift in Sources */,
+				090A5214263DAF6E000479B4 /* ViewController.swift in Sources */,
+				090A5210263DAF6E000479B4 /* AppDelegate.swift in Sources */,
+				090A5212263DAF6E000479B4 /* SceneDelegate.swift in Sources */,
+				090A5224263DAF97000479B4 /* CSStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0971D886263C66F60027DE67 /* Main.storyboard */ = {
+		090A5215263DAF6E000479B4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0971D887263C66F60027DE67 /* Base */,
+				090A5216263DAF6E000479B4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0971D88B263C66F80027DE67 /* LaunchScreen.storyboard */ = {
+		090A521A263DAF70000479B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0971D88C263C66F80027DE67 /* Base */,
+				090A521B263DAF70000479B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0971D88F263C66F80027DE67 /* Debug */ = {
+		090A521E263DAF70000479B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		0971D890263C66F80027DE67 /* Release */ = {
+		090A521F263DAF70000479B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,38 +285,38 @@
 			};
 			name = Release;
 		};
-		0971D892263C66F80027DE67 /* Debug */ = {
+		090A5221263DAF70000479B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53TNW77PB9;
-				INFOPLIST_FILE = "Chapter03-CSButton/Info.plist";
+				INFOPLIST_FILE = "Chapter03-CSSteepper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjin.Chapter03-CSButton";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjin.Chapter03-CSSteepper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0971D893263C66F80027DE67 /* Release */ = {
+		090A5222263DAF70000479B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53TNW77PB9;
-				INFOPLIST_FILE = "Chapter03-CSButton/Info.plist";
+				INFOPLIST_FILE = "Chapter03-CSSteepper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjin.Chapter03-CSButton";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjin.Chapter03-CSSteepper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0971D878263C66F60027DE67 /* Build configuration list for PBXProject "Chapter03-CSButton" */ = {
+		090A5207263DAF6E000479B4 /* Build configuration list for PBXProject "Chapter03-CSSteepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0971D88F263C66F80027DE67 /* Debug */,
-				0971D890263C66F80027DE67 /* Release */,
+				090A521E263DAF70000479B4 /* Debug */,
+				090A521F263DAF70000479B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0971D891263C66F80027DE67 /* Build configuration list for PBXNativeTarget "Chapter03-CSButton" */ = {
+		090A5220263DAF70000479B4 /* Build configuration list for PBXNativeTarget "Chapter03-CSSteepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0971D892263C66F80027DE67 /* Debug */,
-				0971D893263C66F80027DE67 /* Release */,
+				090A5221263DAF70000479B4 /* Debug */,
+				090A5222263DAF70000479B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0971D875263C66F60027DE67 /* Project object */;
+	rootObject = 090A5204263DAF6E000479B4 /* Project object */;
 }
