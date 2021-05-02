@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         
         // ValueChange 이벤트가 발생하면 loggin(_:) 메소드가 호출되도록
         stepper.addTarget(self, action: #selector(logging(_:)), for: .valueChanged)
-        
         self.view.addSubview(stepper)
     }
 
