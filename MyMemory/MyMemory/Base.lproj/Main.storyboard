@@ -174,7 +174,7 @@
         <!--메모 작성-->
         <scene sceneID="WWu-DN-HGy">
             <objects>
-                <viewController id="Qkh-jZ-gpn" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoForm" id="Qkh-jZ-gpn" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jeu-mM-C3y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,6 +285,22 @@
             </objects>
             <point key="canvasLocation" x="1748" y="315.29235382308849"/>
         </scene>
+        <!--ProfileVC-->
+        <scene sceneID="AEu-0F-g2C">
+            <objects>
+                <viewController id="Idb-QK-H74" customClass="ProfileVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rZx-lR-aeu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aiH-xY-kww"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TYs-vg-ExV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0X5-86-1GN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="1013"/>
+        </scene>
         <!--Reveal View Controller-->
         <scene sceneID="bEh-fB-CE8">
             <objects>
@@ -322,10 +338,10 @@
             </objects>
             <point key="canvasLocation" x="-114.40000000000001" y="27.436281859070466"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Side BarVC-->
         <scene sceneID="WDb-Q9-Kqi">
             <objects>
-                <tableViewController id="0nw-V0-8Tn" sceneMemberID="viewController">
+                <tableViewController id="0nw-V0-8Tn" customClass="SideBarVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="V4i-4v-89d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -349,6 +365,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmF-wu-bU2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-114" y="898"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gge-xj-BY3">
+            <objects>
+                <navigationController storyboardIdentifier="_Profile" automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="TNL-9X-SBS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9dJ-wc-yeB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Idb-QK-H74" kind="relationship" relationship="rootViewController" id="HR5-27-Vhu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTd-Pn-sAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743" y="1014"/>
         </scene>
     </scenes>
     <resources>
